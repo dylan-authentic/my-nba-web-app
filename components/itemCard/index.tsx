@@ -10,7 +10,7 @@ type Team = {
   
 export default function ItemCard({ team }: { team: Team }) {
     return (
-        <div className="rounded font-sans bg-gray-100 text-gray-500 border-mx-2 my-4 px-2 py-2 md:text-center">
+        <div className="rounded font-sans bg-gray-100 text-gray-500 mx-2 my-4 px-2 py-2 md:text-center">
             <div>
                 <p className="font-medium text-sm">Team</p>
                 <h1 className="font-bold ">{team.name}</h1>

@@ -16,7 +16,6 @@ type Team = {
 
 export const getStaticProps: GetStaticProps = async () => {
   const res = await axios.get('https://www.balldontlie.io/api/v1/teams');
-  console.log(res.data)
   return {
       props: {
           teams: res.data.data,
