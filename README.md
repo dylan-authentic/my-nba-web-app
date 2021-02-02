@@ -24,3 +24,9 @@ This project utilizes an open source REST API called [BallDontLie](https://www.b
 - TypeScript
 - TailwindCSS
 - Axios
+
+# To-do
+() Implement Route for Individual Teams
+() Implement Route for Navbar
+() Implement Game Stats Dashboard
+() Implement Route for Players
