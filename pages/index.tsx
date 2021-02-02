@@ -3,6 +3,7 @@ import { GetStaticProps } from 'next'
 import axios from 'axios'
 import Hero from '../components/hero'
 import AllTeamsGrid from '../components/allTeamsGrid'
+import Navbar from '../components/navbar'
 
 type Team = {
   id: number,
@@ -32,6 +33,7 @@ export default function Home({ teams }: { teams: Team[] }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <main>
+          <Navbar />
           <Hero />
           <AllTeamsGrid teams={teams} />
         </main>

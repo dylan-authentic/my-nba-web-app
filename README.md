@@ -27,6 +27,7 @@ This project utilizes an open source REST API called [BallDontLie](https://www.b
 
 # To-do
 () Implement Route for Individual Teams
-() Implement Route for Navbar
+(X) Implement Navbar
 () Implement Game Stats Dashboard
 () Implement Route for Players
+() Add Top Games section to home page hero
