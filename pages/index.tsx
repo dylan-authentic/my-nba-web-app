@@ -34,7 +34,7 @@ export default function Home({ teams }: { teams: Team[] }) {
       </Head>
         <main>
           <Navbar />
-          <Hero />
+          <Hero home/>
           <AllTeamsGrid teams={teams} />
         </main>
       <footer></footer>

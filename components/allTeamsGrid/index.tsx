@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import ItemCard from "../itemCard";
 
 type Team = {
@@ -17,7 +18,11 @@ export default function AllTeamsGrid({ teams }: { teams: Team[] }) {
             <div className="grid grid-cols-2 lg:grid-cols-3"> 
                 {teams.map((team: Team) => {
                     return (
-                        <ItemCard key={team.id} team={team} />
+                        <Link href={`/team_id/${team.id}`} key={team.id}>
+                            <a>
+                                <ItemCard team={team} />
+                            </a>
+                        </Link>
                     )
                 })}
             </div>
