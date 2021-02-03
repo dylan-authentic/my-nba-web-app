@@ -1,4 +1,4 @@
-# #MyNBA Web App
+# My NBA Teams Web App
 This project is a sample application that utilizes **Next.js**, **TypeScript**, and **TailwindCSS** to build a web app that allows a user to view NBA teams, players, and game stats from a centralized dashboard type experience. 
 
 ###### WIP
