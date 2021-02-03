@@ -37,8 +37,10 @@ export default function Hero({ home, team }: HeroProps) {
                 <h1 className="font-sans font-bold text-center text-gray-300 text-xl md:text-4xl md:py-32 xl:text-4xl">{team.full_name}</h1>
                 <h3 className="text-center text-white">{team.conference} - {team.division}</h3>
               </div>
-              <div className="bg-gray-500 m-4 rounded-lg h-48 md:h-80">
-                <TeamLogo size={200}/>
+              <div className="bg-gray-500 m-4 rounded-lg h-48 md:h-80 text-center">
+                <div className="inline-block md:pt-12">
+                  <TeamLogo size={200}/>
+                </div>
               </div>
             </div>
         </div>
